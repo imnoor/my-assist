@@ -5,8 +5,6 @@ This tool provides an interactive, real-time chatting experience with the
 assistant, using Streamlit for the frontend. The assistant processes and streams
 responses back to the user, ensuring a seamless and engaging interaction.
 
-![](./assets/demo.png)
-
 ## Features
 - **Completely Local, Admin role not needed**: The solution is complately local and Admin rights not needed, internet connection only needed for first time install and udpating models.
 - **Real-time Chat Interface**: Allows for dynamic interaction with the assistant.
