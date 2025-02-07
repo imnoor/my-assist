@@ -25,14 +25,8 @@ ollama pull deepseek-r1
 
 Clone repo
 ```sh
-git clone https://github.com/ductnn/chat-deepseek-ui.git
-cd chat-deepseek-ui
-```
-
-Build postgres database and redis:
-```sh
-# Use docker-compose
-docker-compose up -d
+git clone https://github.com/imnoor/my-assist.git
+cd my-assist
 ```
 
 Install required packages:
@@ -45,6 +39,7 @@ as a binary:
 ```sh
 pip install --only-binary=:all: pyarrow
 ```
+If it still has errors, one option is to download and install the lib from local.
 
 Run the app:
 ```sh
