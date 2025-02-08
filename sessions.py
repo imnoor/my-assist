@@ -100,3 +100,4 @@ def delete_session(session_name):
 def switch_session(session_name):
     """Switches to a different session."""
     st.session_state["active_session"] = session_name
+    st.rerun()
